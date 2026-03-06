@@ -1,0 +1,19 @@
+Algoritmo "area_triangulo"
+// Descrição   : Código que calcula a área de um triângulo
+// Autor(a)    : Yasmim Akemi Estevão Pedrosa
+// Data atual  : 06/03/2026
+Var
+   area: real //saída
+   base: real //entrada
+   altura: real //entrada
+
+Inicio
+   escreva("Qual é a base do triângulo?")
+   leia(base) //recebe o tamanho da base
+   escreva("Qual é a altura do triãngulo?")
+   leia(altura)//recebe o valor da altura
+   area <- (base * altura)/2
+   escreva("A área do triângulo é:", area)
+
+
+Fimalgoritmo
