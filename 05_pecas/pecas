@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Página-1" id="v7CMpEXOUPG2trbksXNk">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;color: light-dark(rgb(178, 178, 178), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;span style=&quot;font-family: Ubuntu, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; color: rgb(69, 69, 69);&quot;&gt;Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Ubuntu, sans-serif&quot; style=&quot;color: light-dark(rgb(178, 178, 178), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Então: var peca1 = codigo1, numero1, valor_unid1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Ubuntu, sans-serif&quot; style=&quot;color: light-dark(rgb(178, 178, 178), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;var peca2 = codigo2, numero2,valor_unid2&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Ubuntu, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(178, 178, 178), rgb(255, 255, 255));&quot;&gt;var valor = peca1 + peca2&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="250" x="30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-10" edge="1" parent="1" source="gO0Gad2nPdFUo4T68qdz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="gO0Gad2nPdFUo4T68qdz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=14;" value="Início" vertex="1">
+          <mxGeometry height="50" width="150" x="339" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-3" parent="1" style="shape=manualInput;whiteSpace=wrap;html=1;size=13;fontSize=14;" value="cod1, num1, valor1" vertex="1">
+          <mxGeometry height="90" width="120" x="354" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-5" parent="1" style="shape=manualInput;whiteSpace=wrap;html=1;size=13;fontSize=14;" value="cod2, num2, valor2" vertex="1">
+          <mxGeometry height="90" width="120" x="354" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" value="valor &amp;lt;- (num1 * valor1) + (num2 * valor2)" vertex="1">
+          <mxGeometry height="70" width="170" x="329" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-7" parent="1" style="shape=display;whiteSpace=wrap;html=1;fontSize=14;" value="&quot;O valor total a ser pago é R$&quot;, valor" vertex="1">
+          <mxGeometry height="80" width="190" x="319" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=14;" value="Fim" vertex="1">
+          <mxGeometry height="50" width="150" x="339" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="gO0Gad2nPdFUo4T68qdz-9" edge="1" parent="1" source="gO0Gad2nPdFUo4T68qdz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" target="gO0Gad2nPdFUo4T68qdz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
