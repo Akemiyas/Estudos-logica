@@ -1,0 +1,48 @@
+
+#include <stdio.h>
+ 
+int main() {
+    int restos, cem, cinquenta, vinte, dez, cinco, dois;
+    double valor; 
+    int um_real, c_cent, v_cent, d_cent, cinco_cent, um_cent;
+    scanf("%lf", &valor);
+    restos = (int)(valor * 100 + 0.5);
+    cem = restos/10000;
+    restos = restos%10000;
+    cinquenta = restos/5000;
+    restos = restos%5000;
+    vinte = restos/2000;
+    restos = restos%2000;
+    dez = restos/1000;
+    restos = restos%1000;
+    cinco = restos/500;
+    restos = restos%500;
+    dois = restos/200;
+    restos = restos%200;
+    um_real = restos/100;
+    restos = restos%100;
+    c_cent = restos/50;
+    restos = restos%50;
+    v_cent = restos/25;
+    restos = restos%25;
+    d_cent = restos/10;
+    restos = restos%10;
+    cinco_cent = restos/5;
+    restos = restos%5;
+    um_cent = restos/1;
+    printf("NOTAS:\n");
+    printf("%d nota(s) de R$ 100.00\n", cem);
+    printf("%d nota(s) de R$ 50.00\n", cinquenta);
+    printf("%d nota(s) de R$ 20.00\n", vinte);
+    printf("%d nota(s) de R$ 10.00\n", dez);
+    printf("%d nota(s) de R$ 5.00\n", cinco);
+    printf("%d nota(s) de R$ 2.00\n", dois);
+    printf("MOEDAS:\n");
+    printf("%d moeda(s) de R$ 1.00\n", um_real);
+    printf("%d moeda(s) de R$ 0.50\n", c_cent);
+    printf("%d moeda(s) de R$ 0.25\n", v_cent);
+    printf("%d moeda(s) de R$ 0.10\n", d_cent);
+    printf("%d moeda(s) de R$ 0.05\n", cinco_cent);
+    printf("%d moeda(s) de R$ 0.01\n", um_cent);
+    return 0;
+}
